@@ -9,4 +9,4 @@
 *.ini
 deploy
 .time
-config.php
+/config.php
