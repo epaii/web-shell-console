@@ -6370,8 +6370,8 @@ if (array_key_exists('REQUEST_METHOD', $_SERVER) && $_SERVER['REQUEST_METHOD'] =
                             is_small_window: a(document).width() < 625 ? !0 : !1
                         }, m = {user: "", hostname: "", path: ""},
                         n = "undefined" != typeof <?php echo $NO_LOGIN ? "true" : "false" ?>?<?php echo $NO_LOGIN ? "true" : "false" ?>: !1,
-                        o = !1, p = "Web Console", q = "http://web-console.org", r = q + "\n";
-                    l.is_small_window || (p = "  _    _      _     _____                       _                \n | |  | |    | |   /  __ \\                     | |            \n | |  | | ___| |__ | /  \\/ ___  _ __  ___  ___ | | ___        \n | |/\\| |/ _ \\ '_ \\| |    / _ \\| '_ \\/ __|/ _ \\| |/ _ \\ \n \\  /\\  /  __/ |_) | \\__/\\ (_) | | | \\__ \\ (_) | |  __/  \n  \\/  \\/ \\___|____/ \\____/\\___/|_| |_|___/\\___/|_|\\___| ", r = "\n                 " + q + "\n");
+                        o = !1, p = "Web-shell-console", q = "http://web-console.org", r =   "\n";
+                    // l.is_small_window || (p = "  _    _      _     _____                       _                \n | |  | |    | |   /  __ \\                     | |            \n | |  | | ___| |__ | /  \\/ ___  _ __  ___  ___ | | ___        \n | |/\\| |/ _ \\ '_ \\| |    / _ \\| '_ \\/ __|/ _ \\| |/ _ \\ \n \\  /\\  /  __/ |_) | \\__/\\ (_) | | | \\__ \\ (_) | |  __/  \n  \\/  \\/ \\___|____/ \\____/\\___/|_| |_|___/\\___/|_|\\___| ", r = "\n                 " + q + "\n");
                     var s = a("body").terminal(h, {
                         login: n ? !1 : i,
                         prompt: c(),
